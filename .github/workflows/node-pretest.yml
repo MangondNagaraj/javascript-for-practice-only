@@ -6,7 +6,7 @@ jobs:
   pretest:
     runs-on: ubuntu-latest
     strategy:
-      fail-fast: false
+      fail-fast: 
       matrix:
         package:
           - '..'
